@@ -1,3 +1,8 @@
-echo " hello world from taj"
+pipeline {
+  agent {
+   label 'agent2'
+   echo " hello jenkins"
+  }
+}
 
 
